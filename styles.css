@@ -1,0 +1,238 @@
+.lobby{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black; 
+    width: 100%;
+}
+
+body{
+    width:100%;
+    margin-top:0;
+    margin-left: 0;
+}
+
+.lobby>div{
+    margin-top: 50px;
+    color:black;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.lobby>div>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border:black;
+}
+.lobby>div>a:hover{
+    color: rgb(231, 10, 121);
+    background-color: black;
+}
+
+.socials{
+    background-color: rgb(0, 0, 0);
+    
+}
+.socials>img{
+    padding-top: 150px;
+    padding-left: 40%;
+}
+
+.socials>p{
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: -10px;
+}
+
+.fast>h1{
+     font-family:MaisonNeueBook,Arial,sans-serif;;
+     font-size: 40px;
+     text-align: center;
+     font-style: bold;
+}
+
+.fast>p{
+    font-family: MaisonNeueBook,Arial,sans-serif;
+    text-align:center;
+    margin-top: -10px;
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+
+.content>div>p,a{
+    background-color: rgb(0, 0, 0);
+    color: rgba(180, 8, 8, 0.795);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgba(180, 8, 8, 0.795);
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.content1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 1, 1);
+    background-size: 400px 400px;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.stats{
+    text-align: center;
+    background-color: rgb(226, 221, 221);
+    height: 400px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stats1{
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.stats>h2{
+    padding-top:30px;
+}
+
+strong{
+    font-style: bold;
+    font-size: 50px;
+}
+
+.stats1>p{
+    font-size: 20px;
+}
+
+#content1{
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SHRCTbJvgiy5agqxf/digital-hexagon-abstract-background-dark-black-tone_rv9jgr_de_thumbnail-full01.png");
+    background-repeat: cover;
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content2{
+    background-image: url("https://image.freepik.com/free-vector/gradient-geometric-shape-background_78532-307.jpg");
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content3{
+    background-image: url("https://image.freepik.com/free-vector/red-label-overlap-dark-grey-metallic-background_33869-1241.jpg");
+    width: 400px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content>img{
+    opacity: 0.2;
+    filter: opacity(0.2)
+}
+
+.one{
+    position: relative;
+    padding: 20px;
+}
+
+.two{
+    position: relative;
+    padding: 20px;
+}
+
+.three{
+    position: relative;
+    padding: 20px;
+}
+
+.content>div>p,a:hover{
+    background-color: rgba(192, 13, 37, 0.795);
+    color: rgb(255, 255, 255);
+}
+
+.intro{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.intro>h2{
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom:-15px;
+}
+.mid{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-style: bold;
+ }
+
+ .mid1>h6, .mid2>h6, .mid3>h6{
+    padding-left:37px; 
+    font-size: 19px;
+    letter-spacing: 0;
+    margin-top:-10px; 
+ }
+
+ figcaption{
+    color: gray;
+    font-weight:lighter;
+ }
+
+ .end{
+    text-align: center;
+    margin-bottom: 40px;
+ }
+
+ footer{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:black;
+    height: 300px;
+ }
+
+ #contacts{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+ }
+
+ footer>p{
+    color: rgb(255, 255, 255);
+    text-align: bottom;
+    bottom: 2px;
+ }
+
+ .socialicons{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    
+ }

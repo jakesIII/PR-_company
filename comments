@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <title>Pan-African Games</title>
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <nav>
+        <ul class="top">
+          <li><a href="#country">Countries</a></li>
+          <li><a href="#game">Games</a></li>
+          <li><a href="#instructions">More Info</a></li>
+         </ul>
+      </nav>
+    </div> 
+    
+    <div id="country">
+      <h3>Kenya.</h3>
+      <img src="http://bit.ly/2CbkbXu" alt="Kenyan Flag">
+      <p>It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It's also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations.</p>
+      <p>There are over 40 indigenous tribes, who live in harmony and work together towards building their current robust economy.</p>
+    </div>
+    
+    <div id="game">
+      <h3>Kibe.</h3>
+      <img src="http://bit.ly/2CbkilS" alt="Playing Kibe">
+      <p>This is a game famously known as 'brikicho' and played by kids of all edges. This was a version of hide and seek that involved kids shouting “brikicho, bantura” and kids dispersed into different hiding places trying to stay hidden for as long as possible.</p>
+      <h3>Football.</h3>
+      <img src="https://i.pinimg.com/originals/df/f7/76/dff7765f79bc108bbee43abf149cff40.jpg" width="20%" alt="football">
+      <p>Kids mostl play football randomly without any structure. Here anyone can be the referee and the linesman and as well as the match official. There are also variations example would be 'chobo ua', where kids get to play and if the ball passes between your legs you get fined. </p>
+      <h3>Dufo Mpararo.</h3>
+      <img src="https://ak.picdn.net/offset/photos/59f3b18917fb156e4806e34a/medium/photo.jpg" width="20%" alt="swimming">
+      <p>'Dufo' is slang for swimming and 'mpararo' is slang for dried up and ashy skin from not oilin after a swim. As it is, this swimming in water casements collected over time. Due to inadequate and expensive swimming resources this is how kids learn how to swim.</p>
+    
+    </div>
+    
+    <div id="instructions">
+      <h3>Kibe.</h3>
+      <ul>
+        <li>Be of any age.</li>
+        <li>Be good at looking hiding spots.</li>
+        <li>Be good at staying hidden.</li>
+        <li>Be a good runner in case you get caught. </li>
+        <li>Play fair.</li>
+      </ul>
+      
+      <h3>Football.</h3>
+      <ol>
+        <li>Have a good pair of shoes.</li>
+        <li>Have a hard pair of feet, in case you don't own a good pair of shoes. </li>
+        <li>Be a good goalkeeper if you have weak ball control skills.</li>
+        <li>Be watchful of your football mates.</li>
+        <li>Have good body stamina because the ground is uneven.</li>
+      </ol>
+      
+      <h3>'Dufo Mpararo'</h3>
+      <ul>
+        <li>Be good at swimming.</li>
+        <li>Have good reflexes</li>
+        <li>Stay alert, in case one of your fiends doesn't pop up.</li>
+        <li>Be watchfull of your belongings.</li>
+        <li>Always take a shower after this swimming escapades.</li>
+      </ul>
+    </div>
+   <!--Write your code in here:) -->
+  </body>
+</html>
